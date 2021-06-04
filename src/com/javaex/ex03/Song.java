@@ -11,12 +11,6 @@ public class Song {
 	private int track;
 	
 	//생성자
-
-	
-	//메소드gs
-	
-	//메소드-일반
-	
 	public Song(){
 		System.out.println("Song(파라미터0개)");
 	}
@@ -35,6 +29,12 @@ public class Song {
 		this.track = track;
 		System.out.println("Song(파라미터6개)");
 	}
+	
+	//메소드gs
+	
+	//메소드-일반
+	
+
 	
 }
 
