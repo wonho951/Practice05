@@ -32,14 +32,15 @@ public class FriendApp {
         	info.setHp(hp);
         	info.setSchool(school);        	        	
             // 인스턴스 주소를 배열에 대입
-        	friendArray[3] = info;
+        	friendArray[i] = info;
+        	
         }
         
         
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
             //친구정보 출력 메소드 호출
-        	
+        	friendArray[i].showInfo();
         }
 
         sc.close();
