@@ -7,6 +7,11 @@ public class Account {
 
     
     //생성자 작성
+
+    public Account(String accountNo) {
+    	
+    }
+    
 	public Account(String accountNo, int balance) {
 		super();
 		this.accountNo = accountNo;
@@ -14,5 +19,27 @@ public class Account {
 	}
     
     //필요한 메소드 작성
-	public void 
+	
+	public void deposit(int money) {
+		this.balance = balance + money;
+	}
+	
+	
+	public void withdraw(int money) {
+		this.balance = balance - money;
+	}
+	
+	public void showBalance() {
+		
+		System.out.println(this.balance);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
