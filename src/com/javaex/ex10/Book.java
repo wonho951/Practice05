@@ -47,21 +47,18 @@ public class Book {
 
 	public void setAuthor(String author) {
 		this.author = author;
-	}
-
-
-	public int getStateCode() {
-		return stateCode;
-	}
-
-
-	public void setStateCode(int stateCode) {
-		this.stateCode = stateCode;
-	}
-	
+	}	
 	
 	//메소드 - 일반
     
+	
+	
+	
+	
+	
     
+	
+	
+	
     
 }
