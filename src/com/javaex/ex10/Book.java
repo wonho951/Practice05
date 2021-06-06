@@ -56,6 +56,15 @@ public class Book {
 		System.out.println(title + " 이(가) 대여 됐습니다.");
 	}
 	
+	public void print() {
+		if (stateCode == 0) {
+			System.out.println("대여중");
+		} else {
+			System.out.println("재고있음");
+		}
+	}
+	
+	
 	
 	
 	
