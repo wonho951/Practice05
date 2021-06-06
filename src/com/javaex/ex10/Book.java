@@ -15,7 +15,7 @@ public class Book {
 		this.bookNo = bookNo;
 		this.title = title;
 		this.author = author;
-		this.stateCode = stateCode;
+		this.stateCode = 1;
 	}
 	
 	
