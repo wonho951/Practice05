@@ -51,7 +51,10 @@ public class Book {
 	
 	//메소드 - 일반
     
-	
+	public void rent() {
+		int stateCode = 0;
+		System.out.println(title + " 이(가) 대여 됐습니다.");
+	}
 	
 	
 	
