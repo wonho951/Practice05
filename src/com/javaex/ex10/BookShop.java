@@ -43,7 +43,7 @@ public class BookShop {
         
     	//코드작성
     	 for (int i = 0; i < books.length; i++) {
-         	System.out.println(books[i]);
+         	
          }
     }
 }
