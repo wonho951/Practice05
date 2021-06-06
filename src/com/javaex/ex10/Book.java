@@ -14,6 +14,11 @@ public class Book {
 		
 	}
 	
+	public Book (int bookNo, String title, String author) {
+		this.bookNo = bookNo;
+		this.title = title;
+		this.author = author;
+	}
 	
 	public Book (int bookNo, String title, String author, int stateCode) {		
 		this.bookNo = bookNo;
